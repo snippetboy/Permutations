@@ -71,7 +71,7 @@ Output:
 It also works for large arguments:
 
 ```c#
-  foreach (int[] permutation in Permutations.OrdSmith(50))
+  foreach (int[] permutation in Permutations.OrdSmith(40))
   {
     Console.WriteLine(string.Join(',', permutation));
   }
