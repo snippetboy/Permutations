@@ -111,6 +111,7 @@ It would take too much performance to return a shadow copy of the array.
 Although example 2 works, it's strongly recommended not to do the following for obvious reasons:
 
 ```c#
+  // Don't do that!
   Permutations.OrdSmith(50).ToList()
 ```
 
