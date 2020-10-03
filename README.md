@@ -29,20 +29,22 @@ i.e. each permutation is calculated only when requested.
 
 If you don't need an ordered list of permutations, *Trotter*'s algorithm would be the best choice for large N.
 
-  N |        N! |   Passes |  Trotter |     Heap | Ord-Smith
----:|----------:|---------:|---------:|---------:|----------:
-  1 |         1 | 10000000 |  1572 ms |  1477 ms |   1383 ms
-  2 |         2 | 10000000 |  2059 ms |  1698 ms |   1633 ms
-  3 |         6 | 10000000 |  3196 ms |  2782 ms |   2774 ms
-  4 |        24 | 10000000 |  8177 ms |  7606 ms |   7555 ms
-  5 |       120 |  1000000 |  2934 ms |  3202 ms |   3188 ms
-  6 |       720 |   100000 |  1796 ms |  1835 ms |   1785 ms
-  7 |      5040 |   100000 | 12021 ms | 12736 ms |  12525 ms
-  8 |     40320 |    10000 |  8604 ms | 10125 ms |  10172 ms  
-  9 |    362880 |     1000 |  8437 ms |  9125 ms |   9035 ms
- 10 |   3628800 |      100 |  7445 ms |  9116 ms |   9040 ms
- 11 |  39916800 |       10 |  9112 ms | 10379 ms |   9816 ms
- 12 | 479001600 |        1 | 10852 ms | 11993 ms |  11735 ms
+  N |        N! |   Passes | Trotter |    Heap | Ord-Smith
+---:|----------:|---------:|--------:|--------:|----------:
+  1 |         1 | 10000000 |  759 ms |  722 ms |    676 ms
+  2 |         2 | 10000000 | 1051 ms |  845 ms |    872 ms
+  3 |         6 | 10000000 | 1637 ms | 1345 ms |   1454 ms
+  4 |        24 | 10000000 | 4555 ms | 3812 ms |   3999 ms
+  5 |       120 |  1000000 | 1658 ms | 1640 ms |   1726 ms
+  6 |       720 |   100000 |  889 ms |  938 ms |    985 ms
+  7 |      5040 |   100000 | 6718 ms | 6410 ms |   6857 ms
+  8 |     40320 |    10000 | 5027 ms | 5621 ms |   5463 ms
+  9 |    362880 |     1000 | 4918 ms | 4836 ms |   4898 ms
+ 10 |   3628800 |      100 | 4852 ms | 4821 ms |   4894 ms
+ 11 |  39916800 |       10 | 5235 ms | 5302 ms |   5377 ms
+ 12 | 479001600 |        1 | 6235 ms | 6449 ms |   6438 ms
+
+<sup>(Running 64-bit application on Intel64 Family 6 Model 60 Stepping 3 GenuineIntel ~2494 MHz)</sup>
 
 ## Usage
 
