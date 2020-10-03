@@ -114,7 +114,7 @@ Although example 2 works, it's strongly recommended not to do the following for 
 
 ```c#
   // Don't do that!
-  Permutations.OrdSmith(50).ToList()
+  Permutations.OrdSmith(40).ToList()
 ```
 
-It would (try to) generate a list of 30414093201713378043612608166064768844377641568960512000000000000 entries.
+It would (try to) generate a list of 815915283247897734345611269596115894272000000000 entries.
