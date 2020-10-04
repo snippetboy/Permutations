@@ -1,6 +1,6 @@
 # Permutations
 
-Generating all N! permutations of the numbers 1 to N-1.
+Generating all N! permutations of the numbers 0 to N-1.
 
 - [Algorithms](#Algorithms)
 - [Performance](#Performance)
